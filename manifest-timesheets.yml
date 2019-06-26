@@ -1,8 +1,8 @@
 applications:
-- name: tracker-timesheets
+- name: tk-tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets-pal-{UNIQUE_IDENTIFIER}.apps.chicken.pal.pivotal.io
+  - route: tk-tracker-timesheets.cfapps.io
   memory: 1G
   instances: 1
   env:

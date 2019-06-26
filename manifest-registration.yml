@@ -1,8 +1,8 @@
 applications:
-- name: tracker-registration
+- name: tk-tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-{UNIQUE_IDENTIFIER}.apps.chicken.pal.pivotal.io
+  - route: tk-tracker-registration.cfapps.io
   memory: 1G
   instances: 1
   env:
