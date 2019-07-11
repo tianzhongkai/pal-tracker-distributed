@@ -1,8 +1,8 @@
 applications:
-- name: tracker-allocations
+- name: tk-tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
-  - route: allocations-pal-{UNIQUE_IDENTIFIER}.apps.chicken.pal.pivotal.io
+  - route: tk-allocations-pal.cfapps.io
   memory: 1G
   instances: 1
   env:
